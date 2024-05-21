@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    {%if name%}
-        <h1>Hello, {{name}}</h1>
-    {%else%}
-        <h1>Hello, world!</h1>
-    {%endif%}
+    <form action="/process" method="post">
+        <label>precipitation</label><input type="number" name="precipitation"/><br>
+        <label>temp_max</label><input type="number" name="temp_max"/><br>
+        <label>temp_min</label><input type="number" name="temp_min"/><br>
+        <label>wind</label><input type="number" name="wind"/><br>
+        <button type="submit" value="submit">
+    </form>
 </body>
 </html>
