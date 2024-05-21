@@ -1,5 +1,5 @@
 from flask import Flask
-from flask import rendertemplate, makeresponse, request
+from flask import render_template, make_response, request
 
 from keras.models import load_model, Sequential
 import numpy as np
