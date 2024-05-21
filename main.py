@@ -11,4 +11,4 @@ def process_form():
     temp_max = request.form.get('temp_max')
     temp_min = request.form.get('temp_min')
     wind = request.form.get('wind')
-    return 'formularz przetworzono'+precipitation
+    return 'Form processed'+precipitation
