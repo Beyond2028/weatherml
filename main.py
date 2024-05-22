@@ -12,3 +12,7 @@ def process_form():
     temp_min = request.form.get('temp_min')
     wind = request.form.get('wind')
     return 'formularz przetworzono'+precipitation
+
+@app.errorhandler(404)
+def something_went_wrong(error):
+    return render_template()

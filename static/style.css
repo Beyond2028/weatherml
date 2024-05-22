@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+main{
+    margin: auto;
+}
+form{
+    border: 1px solid black;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 25%;
+}
+label{
+    text-transform: capitalize;
+}
+input{
+    border: 0px;
+    border-bottom: 1px solid black;
+    text-align: center;
+    width: auto;
+    width: 10%;
+}
+button{
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.4%;
+}
+button:hover{
+    background-color: white;
+}
+header{
+    height: 15%;
+    width: 100%;
+    margin: auto;
+}
+#abHyperlink{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0.4%;
+    width: fit-content;
+}
+h1{
+    width:fit-content;
+}
