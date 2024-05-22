@@ -38,12 +38,17 @@ header{
     width: 100%;
     margin: auto;
 }
-#abHyperlink{
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 0.4%;
-    width: fit-content;
-}
 h1{
     width:fit-content;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
 }

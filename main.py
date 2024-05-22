@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('hello.html', name=None)
+    return render_template('hello.html')
 
 @app.route('/process',methods=['POST'])
 def process_form():
@@ -11,7 +11,8 @@ def process_form():
     temp_max = request.form.get('temp_max')
     temp_min = request.form.get('temp_min')
     wind = request.form.get('wind')
-    return 'formularz przetworzono'+precipitation
+    index()
+    return render_template('hello.html')
 
 @app.errorhandler(404)
 def something_went_wrong(error):
