@@ -18,6 +18,6 @@ def process_form():
 def page_not_found(error):
     return render_template('404.html',error = error)
 
-@app.errorhandler()
-def error_handler(error):
+#@app.errorhandler()
+#def error_handler(error):
     return render_template('error.html', error=error)
