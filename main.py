@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('hello.html')
+    return render_template('index.html')
 
 @app.route('/process',methods=['POST'])
 def process_form():
@@ -12,7 +12,7 @@ def process_form():
     temp_min = request.form.get('temp_min')
     wind = request.form.get('wind')
     index()
-    return render_template('hello.html')
+    return render_template('index.html')
 
 @app.errorhandler(404)
 def something_went_wrong(error):

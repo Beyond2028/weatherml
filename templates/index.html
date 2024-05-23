@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Weatherml.com</title>
+</head>
+<body>
+    <header>
+        <h1>Weatherml.com</h1>
+    </header>
+    <main>
+        <form action="/process" method="post">
+            <div>
+                <label for="precipitation">Precipitation</label><br>
+                <input type="number" id="precipitation" step="0.01" name="precipitation" required><br>
+            </div>
+            <div>
+                <label for="temp_max">Max. temp.</label><br>
+                <input type="number" id="temp_max" step="0.01" name="temp_max" required>&deg;C<br>
+            </div>
+            <div>
+                <label for="temp_min">Min. temp.</label><br>
+                <input type="number" id="temp_min" step="0.01" name="temp_min" required>&deg;C<br>
+            </div>
+            <div>
+                <label for="wind">Wind</label><br>
+                <input type="number" id="wind" step="0.01" name="wind" required><br>
+            </div>
+            <br>
+            <button type="submit">Check weather</button>
+        </form>
+        <div>
+            <div class="text">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum vitae neque eu tincidunt. Vestibulum vehicula est ac erat iaculis consequat. Mauris eu consequat nibh. Nunc vehicula ante diam, sed consectetur elit dignissim et. Nunc vitae facilisis nisi. Integer semper, mauris vel ultricies tempor, diam mauris semper est, a facilisis ex ipsum ac nunc. Duis fermentum tincidunt ante, iaculis ornare felis pulvinar sed. Vivamus quis laoreet velit. Mauris rutrum rutrum nisi, ut sodales nisi tempus a. Nam in lacinia enim. Maecenas non erat ut justo gravida faucibus. Vestibulum maximus accumsan ante at pulvinar. Cras et libero dolor. In facilisis cursus orci ut viverra. Aliquam vitae semper enim.
+                </p>
+            </div>
+            <div class="text">
+                <h2>Lorem ipsum dolor sit amet</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed condimentum vitae neque eu tincidunt. Vestibulum vehicula est ac erat iaculis consequat. Mauris eu consequat nibh. Nunc vehicula ante diam, sed consectetur elit dignissim et. Nunc vitae facilisis nisi. Integer semper, mauris vel ultricies tempor, diam mauris semper est, a facilisis ex ipsum ac nunc. Duis fermentum tincidunt ante, iaculis ornare felis pulvinar sed. Vivamus quis laoreet velit. Mauris rutrum rutrum nisi, ut sodales nisi tempus a. Nam in lacinia enim. Maecenas non erat ut justo gravida faucibus. Vestibulum maximus accumsan ante at pulvinar. Cras et libero dolor. In facilisis cursus orci ut viverra. Aliquam vitae semper enim.
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Lorem ipsum dolor sit amet</p>
+        <p>GitHub <a target="_blank" href="https://github.com/Beyond2028">page</a></p>
+    </footer>
+</body>
+</html>
