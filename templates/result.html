@@ -8,20 +8,20 @@
 </head>
 <body>
     {% if prediction == 'sun' %}
-        <img src="/static/sun.png" alt="Sun">
+        <img class="weather" id="sun" src="static/sun.png" alt="Sun">
     {% elif prediction == 'snow' %}
-        <img src="/static/snow.png" alt="Snow">
+        <img class="weather" id="snow" src="static/snow.png" alt="Snow">
     {% elif prediction == 'rain' %}
-        <img src="/static/rain.png" alt="Rain">
+        <img class="weather" id="rain" src="static/rain.png" alt="Rain">
     {% elif prediction == 'drizzle' %}
-        <img src="/static/drizzle.png" alt="Drizzle">
+        <img class="weather" id="drizzle" src="static/drizzle.png" alt="Drizzle">
     {% elif prediction == 'fog' %}
-        <img src="/static/fog.png" alt="Fog">
+        <img class="weather" id="fog" src="static/fog.png" alt="Fog">
     {% else %}
         <p>Unknown Weather</p>
     {% endif %}
     <br>
-    <form method="post" action="/returnToHome">
+    <form id="returnForm" method="post" action="/returnToHome">
         <button type="submit">Return</button>
     </form>
 </body>
