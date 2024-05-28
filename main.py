@@ -1,5 +1,5 @@
 from flask import Flask
-from flask import render_template, make_response, request
+from flask import render_template, request
 import numpy as np
 
 app = Flask(__name__)
