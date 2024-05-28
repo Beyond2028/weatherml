@@ -1,7 +1,7 @@
 
 # Weather machine lerning
 
-Simple page to test machine lerning on websites.
+Simple page to test machine lerning on websites using flask.
 Project was created as the part of [cooperation project](https://github.com/Beyond2028).
 
 
