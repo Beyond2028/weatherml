@@ -7,8 +7,7 @@ Project was created as the part of [cooperation project](https://github.com/Beyo
 
 ## Installing
 
-First to run project on your machine you need to create a virtual enviroment in python (see [python documentation](https://docs.python.org/3/library/venv.html)).
-Then you need to install numpy and sklearn.
+First to run project on your machine you need to create a virtual enviroment in python (see [python documentation](https://docs.python.org/3/library/venv.html)). After creating virtual enviroment you need to place project files in same folder as created enviroment. Then you need to install numpy and sklearn.
 
 Numpy
 ```bash
